@@ -1,8 +1,10 @@
+import _ from 'lodash';
+
 import {createPageLayout} from "./pageLayout";
 import {createHomePage} from "./homePage";
 import {createMenuPage} from "./menuPage";
 import {createAboutPage} from "./aboutPage";
-import '../src/style.css';
+
 
 createPageLayout();
 createHomePage();
