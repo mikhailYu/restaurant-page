@@ -55,7 +55,7 @@ function createAboutPage(){
 
     aboutImage = document.createElement('img');
     addClass(aboutImage, "aboutImage");
-    aboutImage.src = "../dist/images/aboutPic.jpg";
+    aboutImage.src = "/images/aboutPic.jpg";
     aboutImageContainer.appendChild(aboutImage);
 
     function aboutContact(text){
