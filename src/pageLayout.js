@@ -20,7 +20,7 @@ function createPageLayout() {
 
     headerImg = document.createElement('img');
     addClass(headerImg, "headerImg");
-    headerImg.src = "../images/headerImage.jpg";
+    headerImg.src = "../dist/images/headerImage.jpg";
     headerImgCont.appendChild(headerImg);
 
     headerTextCont = document.createElement('div');
