@@ -23,7 +23,7 @@ function createHomePage(){
 
     homeImage = document.createElement('img');
     addClass(homeImage, "homeImage");
-    homeImage.src = "../dist/images/homePageCoffee.jpg";
+    homeImage.src = "images/homePageCoffee.jpg";
     homeImageContainer.appendChild(homeImage);
 
     homeTextContainer = document.createElement('div');
